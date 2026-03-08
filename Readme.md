@@ -72,6 +72,22 @@ npm run dev
 
 ---
 
+## Deployment
+
+**Render**
+Initially attempted deployment on Render, but was unable to proceed due to billing requirements.
+
+**Vercel**
+The application is successfully deployed on Vercel. Here are the steps to deploy:
+1. Log in to the Vercel dashboard.
+2. Create a new project.
+3. Import from GitHub repository.
+4. Choose the framework preset (`Vite` for the frontend and `Express` for the backend).
+5. Configure the necessary environment variables.
+6. Finally, deploy the project.
+
+---
+
 ## API Documentation
 
 The backend exposes the following RESTful API endpoints at `http://localhost:5000/api`:
